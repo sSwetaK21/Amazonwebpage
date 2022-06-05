@@ -265,7 +265,9 @@ i.bx.bx-menu {
 
 /* grid here */
 .Grid_layout {
-    background-color: rgb(225, 224, 224);
+    background-color: #7580a0;
+    padding-bottom: 10px;
+
 }
 
 .cards_row {
