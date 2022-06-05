@@ -165,6 +165,10 @@ button {
 }
 
 /* section one here */
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
 .body_imgtag {
     width: auto;
     height: 600px;
@@ -193,4 +197,79 @@ button {
     color: #524848;
     font-size: 25px;
     font-weight: 600;
+}
+
+.click_link {
+    position: absolute;
+    /* display: flex; */
+    bottom: 10%;
+    right: 7%;
+    padding: 10px 90px;
+    background-color: #F5F6F6;
+    text-align: center;
+}
+ /* grid here */
+ .Grid_layout{
+     background-color: rgb(225, 224, 224);
+ }
+
+.cards_row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: minmax(100px, 1fr);
+
+    grid-gap: 1em;
+    grid-template-areas: "cards_one cards_two cards_three cards_four"
+                          "cards_one cards_two cards_three .";
+}
+
+.cards_style{
+    background-color: #fff;
+    padding: 15px;
+}
+
+.cards_one {
+    grid-area: cards_one;
+}
+.cards_two {
+    grid-area: cards_two;   
+}
+.cards_three {
+    grid-area: cards_three;
+}
+.cards_four {
+    grid-area: cards_four;
+}
+.card_img {
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 100px; */
+    justify-content: center;
+    align-items: center;
+}
+
+.card_imgtag {
+    width: 120px;
+    height: 150px;
+}
+
+.card_text {
+    /* padding: 10px 0px; */
+    text-align: left;
+    padding-top: 20px;
+    /* color: blue; */
+}
+.card_link {
+    text-decoration: none;
+    color: #007185;
+}
+.body_img{
+    background-image: url(images/body_img.jpg);
+    background-size: cover;
+    height: 300px;
+}
+/* second row hre */
+.card_1img {
+    width: auto;
+    height: 220px;
 }
