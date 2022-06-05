@@ -1,13 +1,15 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     font-family: 'Roboto', sans-serif;
 
 }
+
 /* General */
 .body {
     font-family: 'Roboto', sans-serif;
 }
+
 /* .container{
     max-width: 1080px;
     margin: 0px auto;
@@ -24,29 +26,35 @@
 
     font-family: 'Roboto', sans-serif;
 }
-.grid_container{
+
+.grid_container {
     display: grid;
     grid-template-columns: 140px 100px auto 1fr;
-    grid-template-rows: 1fr auto auto ;
+    grid-template-rows: 1fr auto auto;
 }
+
 .brand {
     display: grid;
     align-items: center;
     justify-content: center;
 }
+
 .Brand-img {
     width: auto;
     height: 50px;
 }
+
 .location {
     display: grid;
     grid-template-columns: 1fr 100px;
 }
+
 .loc-txt {
     font-size: 15px;
     color: gray;
     font-weight: bold;
 }
+
 .icon {
     font-size: 20px;
     display: grid;
@@ -54,6 +62,7 @@
     /* padding: 0px; */
     padding-bottom: 9px;
 }
+
 .icon-text {
     align-items: center;
     display: grid;
@@ -65,19 +74,25 @@
     background-color: #f3f3f3;
     border-radius: 5px 0px 0px 5px;
 }
+
 .nav-center {
     display: grid;
     grid-template-columns: 70px 1fr 50px;
     align-items: center;
 
 }
+
 .search-container input[type="search"] {
     padding: 10px;
     font-size: 14px;
     width: 550px;
     border: 1px solid white;
 }
-button {
+.search-container input[type="search"]:focus {
+    border: 3px solid #ff9933;
+  }
+
+.btnsearch {
     font-size: 23px;
     padding: 4px 6px 4px 4px;
     border-right: 1px solid #ff9933;
@@ -87,16 +102,19 @@ button {
     background-color: #ff9933;
     border-radius: 0px 6px 6px 0px;
 }
+
 .flag {
     width: auto;
     height: 20px;
 }
+
 .nav-right {
     display: grid;
     align-items: center;
     grid-template-columns: 70px 170px 80px 90px;
 
 }
+
 #selector1 {
     width: 14px;
     border: none;
@@ -104,28 +122,34 @@ button {
     background-color: black;
     height: 10px;
 }
+
 .nav-text {
     align-items: center;
     grid-template-columns: 125px 10px;
     display: grid;
 }
+
 .hello-txt {
     font-size: 13px;
     font-weight: 100;
 
 }
+
 .hello_text {
     font-weight: bold;
 }
+
 /* Navbar here */
 .cart {
     display: grid;
     grid-template-columns: 50px 1fr;
     align-items: center;
 }
+
 .cart_icon {
     font-size: 40px;
 }
+
 .nav_bar {
     display: grid;
     height: 35px;
@@ -137,6 +161,9 @@ button {
     justify-content: center;
     color: white;
 }
+i.bx.bx-menu {
+    font-size: 26px;
+}
 .menu_icon {
     display: flex;
     font-size: 20px;
@@ -146,6 +173,10 @@ button {
     justify-content: center;
 
 }
+.menu_icon:hover{
+    border: 1px solid white;
+
+}
 .menu_lists {
     display: grid;
     /* grid-template-columns: repeat(5, minmax(100px,200px)); */
@@ -153,14 +184,19 @@ button {
     color: white;
 
 }
+
 .menu_link {
     color: white;
     text-decoration: none;
 }
+.menu_link:hover {
+    color: #ff9933;
+}
+
 .menu_last {
     color: white;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
 }
 
@@ -169,6 +205,7 @@ button {
     max-width: 1300px;
     margin: 0 auto;
 }
+
 .body_imgtag {
     width: auto;
     height: 600px;
@@ -178,6 +215,7 @@ button {
     position: relative;
     top: 0;
 }
+
 .img_textbox {
     /* position: absolute;
     top: 12%;
@@ -188,11 +226,13 @@ button {
     justify-content: center;
     align-items: center;
 }
+
 .img_head {
     font-size: 45px;
     color: #524848;
     font-weight: bold;
 }
+
 .img_para {
     color: #524848;
     font-size: 25px;
@@ -208,10 +248,11 @@ button {
     background-color: #F5F6F6;
     text-align: center;
 }
- /* grid here */
- .Grid_layout{
-     background-color: rgb(225, 224, 224);
- }
+
+/* grid here */
+.Grid_layout {
+    background-color: rgb(225, 224, 224);
+}
 
 .cards_row {
     display: grid;
@@ -220,10 +261,10 @@ button {
 
     grid-gap: 1em;
     grid-template-areas: "cards_one cards_two cards_three cards_four"
-                          "cards_one cards_two cards_three .";
+        "cards_one cards_two cards_three .";
 }
 
-.cards_style{
+.cards_style {
     background-color: #fff;
     padding: 15px;
 }
@@ -231,15 +272,22 @@ button {
 .cards_one {
     grid-area: cards_one;
 }
+
 .cards_two {
-    grid-area: cards_two;   
+    grid-area: cards_two;
 }
+
 .cards_three {
     grid-area: cards_three;
 }
+
 .cards_four {
     grid-area: cards_four;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
 .card_img {
     display: flex;
     flex-wrap: wrap;
@@ -259,17 +307,101 @@ button {
     padding-top: 20px;
     /* color: blue; */
 }
+
 .card_link {
     text-decoration: none;
     color: #007185;
 }
-.body_img{
+.card_link:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #C7511F;
+}
+
+.body_img {
     background-image: url(images/body_img.jpg);
     background-size: cover;
     height: 300px;
 }
+
 /* second row hre */
 .card_1img {
-    width: auto;
-    height: 220px;
+    width: 270px;
+    height: 300px;
+}
+
+.card_button {
+    background-color: #ff9933;
+    width: 100%;
+    text-align: center;
+    padding: 5px 0px;
+    border-radius: 10px;
+    margin: 10px;
+    border: 1px solid #FCD200;
+    color: #0F1111;
+    background-color: transparent;
+  
+    /* border-color: #FCD200; */
+}
+
+.card_button:hover {
+    background: #FFD814;
+    color: black;
+}
+
+.card_ends {
+    display: inline;
+    color: #CC0C39;
+    font-weight: 600;
+}
+
+
+
+.card_2img {
+    width: 200px;
+    height: 200px;
+}
+
+.card_btn {
+    background-color: #CC0C39;
+    padding: 5px 10px;
+    color: white;
+    border: none;
+    font-size: 15px;
+
+}
+
+
+
+.card_para2 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+
+}
+
+.card_graypara{
+    color: #565959;
+    font-size: 14px;
+}
+
+
+.crossline{
+    text-decoration: line-through;
+}
+
+/* popular row here */
+.popular_row, .frequent_row {
+    max-width: 1300px;
+    margin: 20px auto;
+    background-color: #fff;
+}
+.popular_row_grid, .frequent_row_grid {
+    display: grid;
+    grid-gap: 1em;
+    /* overflow: scroll; */
+    grid-template-columns: repeat(6, auto);
+}
+.popular_head, .frequent_head {
+    padding: 10px;
 }
