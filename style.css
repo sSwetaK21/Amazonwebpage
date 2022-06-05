@@ -241,12 +241,16 @@ i.bx.bx-menu {
 
 .click_link {
     position: absolute;
-    /* display: flex; */
+    display: flex;
     bottom: 10%;
-    right: 7%;
+    right: 2%;
+    width: 82%;
     padding: 10px 90px;
     background-color: #F5F6F6;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 /* grid here */
