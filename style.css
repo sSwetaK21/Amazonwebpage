@@ -188,7 +188,7 @@ body::-webkit-scrollbar-track{
     display: grid;
     height: 35px;
     font-family: 'Roboto', sans-serif;
-
+    padding: 2px;
     background-color: #232f3e;
     grid-template-columns: 100px 1fr 240px;
     align-items: center;
