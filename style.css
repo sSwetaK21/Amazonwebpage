@@ -461,6 +461,8 @@ i.bx.bx-menu {
 .popular_row, .frequent_row {
     max-width: 1300px;
     margin: 20px auto;
+    border-radius: 2px;
+
     background-color: #fff;
 }
 .popular_row_grid, .frequent_row_grid {
