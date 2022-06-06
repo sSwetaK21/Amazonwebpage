@@ -100,7 +100,7 @@ body::-webkit-scrollbar-track{
     padding: 9px;
     font-size: 14px;
     padding-top: 10px;
-    width: 580px;
+    width: 600px;
     border: 1px solid white;
 }
 .search-container input[type="search"]:focus {
@@ -127,7 +127,7 @@ body::-webkit-scrollbar-track{
 .nav-right {
     display: grid;
     align-items: center;
-    grid-template-columns: 70px 170px 80px 90px;
+    grid-template-columns: 70px 148px 80px 90px;
 
 }
 .nav-flag:hover{
